@@ -82,6 +82,7 @@
 ;;; Code:
 
 (eval-when-compile (require 'cl))
+(require 'cl-lib)
 (require 'cl-seq)
 (require 'soap-client)
 (require 'request)
